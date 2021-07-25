@@ -1,9 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 body {
     background-color: #0b090a;
+    overflow-x:hidden;
+    margin: 0px 20px 0px 0px;
+
 }
 .style-menu {    
     display: inline-block;
@@ -31,13 +35,12 @@ body {
     top: 12px;
 }
 #name {
-    color: #f7fff7;
+    color:#f7fff7;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;  
     font-family: sans-serif;
     font-weight: 100;
     margin: 10px auto 15px auto;    
-}
-.paragrafos {
-    color: #f7fff7;
 }
 #descriçao {
     max-width: 400px;
@@ -50,9 +53,11 @@ body {
     background-size: contain;
     height: 50em;
 }*/
-.borda-texto p {
+.borda-texto p, h2, h3 {
+    color:#f7fff7;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #000;    
+    -webkit-text-stroke-color: #000;
+    font-family: sans-serif;    
 }
 .perfis {
     text-align: center;
@@ -69,3 +74,80 @@ body {
     padding: 1px 1px;
     background-color: #ffffff;
 }
+#habilidades {
+    text-align: center;
+    margin-top: 100px;
+}
+/*
+.hability-container {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}*/
+.hability-style {
+    display: inline-block;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 230px 550px 230px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: #f7fff7;
+    border-radius: 10%;
+}
+.hability-style h2 {
+    margin-top: 7px;
+}
+.hard-style1-unix {
+    position: absolute;
+    left: 85px;
+    top: 980px;
+}
+.hard-img-unix-class1 {
+    border-radius: 20%;
+    left: 60px;
+    position: absolute;
+    margin: 70px 0px 0px 0px;
+    padding: 1px 1px;
+    background-color: rgb(94, 0, 0);
+}
+.hard-style2-github {
+    position: absolute;
+    left: 425px;
+    top: 980px;
+}
+.hard-img-github-class2 {
+    border-radius: 20%;
+    left: 400px;
+    position: absolute;
+    margin: 70px 0px 0px 0px;
+    padding: 1px 1px;
+    background-color: rgb(94, 0, 0);
+}
+.hard-style3-html5 {
+    position: absolute;
+    left: 450px;
+    top: 1230px;
+}
+.hard-img-html5-class3 {
+    border-radius: 20%;
+    left: 400px;
+    position: absolute;
+    margin: 320px 0px 0px 0px;
+    padding: 1px 1px;
+    background-color: rgb(94, 0, 0);
+}
+.hard-style4-css {
+    position: absolute;
+    left: 123px;
+    top: 1230px;
+}
+.hard-img-css-class4 {
+    border-radius: 20%;
+    left: 60px;
+    position: absolute;
+    margin: 320px 0px 0px 0px;
+    padding: 1px 1px;
+    background-color: rgb(94, 0, 0);
+}
+
+
+
