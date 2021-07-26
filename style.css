@@ -6,7 +6,6 @@
 body {
     background-color: #0b090a;
     margin: 0px 20px 0px 0px;
-
 }
 .style-menu {    
     display: inline-block;
@@ -30,7 +29,7 @@ body {
 }
 .header-style {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .menu-container {
     text-align: center;
@@ -93,7 +92,7 @@ body {
     display: inline-block;
     margin: 10px 0px 0px 20px;
     padding: 0px 230px 550px 230px;
-    border-width: 10px;
+    border-width: 2px;
     border-style: solid;
     border-color: #f7fff7;
     border-radius: 10%;
@@ -189,6 +188,80 @@ body {
     right: 220px;
     top: 220px;
     margin: 0px 0px; 
+}
+.hobbies {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;   
+}
+.img-hobbies-style {
+    border-radius: 50%;
+    padding: 1px 1px;
+    background-color: #f7f2ab;
+    margin-top: 10px;
+}
+.hobbie-filmes {
+    margin: 20px 60px 20px 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px;
+    display: inline-block;
+}
+.hobbie-esporte {
+    margin: 20px 60px 20px 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;   
+}
+.hobbie-exercicio {
+    margin: 20px 60px 20px 60px;   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;   
+}
+.hobbie-musica {
+    margin: 20px 60px 20px 60px;   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;
+}
+.hobbie-amigos {
+    margin: 20px 60px 20px 60px;   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;
+}
+.hobbie-internet {
+    margin: 20px 60px 20px 60px;   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;
+}
+.hobbie-livros {
+    margin: 20px 60px 20px 60px;   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f7fff7;
+    border-radius: 10%;
+    width: 140px; 
+    display: inline-block;
 }
 
 
