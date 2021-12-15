@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./header.css";
+import "../css/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandshake, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +14,7 @@ function Header() {
         </h2>
         <p className="paragraph-description">
           <FontAwesomeIcon className="laptopCode-icon" icon={ faLaptopCode }></FontAwesomeIcon>
-          &nbsp;Full Stack Web Developer
+          &nbsp;Full Stack Developer
         </p>
       </div>
       <div
@@ -25,10 +25,10 @@ function Header() {
       </div>
       <nav className={openBurguerMenu ? 'nav active' : 'nav'}>
         <ul className="ul-menu">
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contato</li>
+          <a><li>Home</li></a>
+          <a><li>About</li></a>
+          <a><li>Portfolio</li></a>
+          <a><li>Contact</li></a>
         </ul>
       </nav>
     </header>

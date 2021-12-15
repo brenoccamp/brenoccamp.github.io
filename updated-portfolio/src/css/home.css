@@ -1,0 +1,126 @@
+@media screen and (max-width: 425px) {
+  *, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .main-home {
+    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* justify-content: center; */
+    margin-top: calc(16%);
+    /* text-align: start; */
+  }
+
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .home-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: calc(12%);
+    margin-top: calc(28%);
+    text-shadow: -1px 0 black;
+  }
+
+  .home-paragraph {
+    color: #03b8e6;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: calc(12.5%);
+    margin-top: calc(1%);
+  }
+
+  .skills-paragraph {
+    color: white;
+    font-size: 17.5px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-left: calc(12.5%);
+    margin-top: calc(1%);
+  }
+
+  .skills-container {
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.6);
+    /* box-sizing: content-box; */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    height: 30px;
+    margin-left: calc(14.5%);
+    max-width: 35%;
+    overflow: hidden;
+  }
+
+  span {
+    animation: spin_skills 10s infinite;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    padding-top: 2.5px;
+  }
+
+  @keyframes spin_skills {
+    7% {
+      transform: translateY(-112%);
+    }
+    14% {
+      transform: translateY(-100%);
+    }
+    21% {
+      transform: translateY(-212%);
+    }
+    28% {
+      transform: translateY(-200%);
+    }
+    35% {
+      transform: translateY(-312%);
+    }
+    42% {
+      transform: translateY(-300%);
+    }
+    49% {
+      transform: translateY(-412%);
+    }
+    56% {
+      transform: translateY(-400%);
+    }
+    63% {
+      transform: translateY(-512%);
+    }
+    70% {
+      transform: translateY(-500%);
+    }
+    77% {
+      transform: translateY(-612%);
+    }
+    84% {
+      transform: translateY(-600%);
+    }
+    91% {
+      transform: translateY(-712%);
+    }
+    97% {
+      transform: translateY(-697.3%);
+    }
+    100% {
+      transform: translateY(-700%);
+    }
+  }
+
+}

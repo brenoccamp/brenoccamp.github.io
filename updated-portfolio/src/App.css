@@ -28,17 +28,19 @@
 } */
 
 @media screen and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
   .App {
-    align-items: center;
-    align-content: space-between;
-    background-attachment: fixed;
-    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* align-items: center; */
+    /* align-content: space-between; */
+    /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
   }
