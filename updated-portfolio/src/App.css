@@ -1,25 +1,45 @@
-html {
-  background-image: url(https://www.jonathasguerra.com.br//img/hero/1.jpg);
+/* .App {
+  background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+  background-position: center center;
+  background-size: cover;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-.root {
+.footer {
   height: 100%;
-}
-
-.App {
-  display: flex;
-  min-height: 100%;
-  justify-content: center;
-}
-
-.date {
-  color: white;
-  font-weight: bolder;
+  position: fixed;
 }
 
 .date-container {
+  align-items: center;
   display: flex;
-  min-height: 690px;
-  align-items: flex-end;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+
+.copyright {
+  color: white;
+  margin: 0px;
+} */
+
+@media screen and (max-width: 425px) {
+  .App {
+    align-items: center;
+    align-content: space-between;
+    background-attachment: fixed;
+    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 }
