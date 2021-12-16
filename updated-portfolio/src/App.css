@@ -40,7 +40,7 @@
     /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     margin: 0px;
     padding: 0px;
   }

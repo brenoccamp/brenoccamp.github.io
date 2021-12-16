@@ -5,6 +5,14 @@
     padding: 0px;
   }
 
+  .set-language-anchor {
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    right: 5px;
+    z-index: 10;
+  }
+
   .main-home {
     background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
     background-position: center right;
@@ -27,7 +35,7 @@
     font-size: 28px;
     font-weight: 600;
     margin-left: calc(12%);
-    margin-top: calc(28%);
+    margin-top: calc(33%);
     text-shadow: -1px 0 black;
   }
 
@@ -63,6 +71,7 @@
     font-weight: bolder;
     height: 30px;
     margin-left: calc(14.5%);
+    margin-top: 4px;
     max-width: 35%;
     overflow: hidden;
   }

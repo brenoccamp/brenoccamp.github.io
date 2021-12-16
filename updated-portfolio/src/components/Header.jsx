@@ -1,20 +1,28 @@
-import React, { useState } from "react";
-import "../css/header.css";
+import React, { useContext, useState } from "react";
+import "../styles/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandshake, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import ApplicationContext from "../context/ApplicationContext";
 
 function Header() {
   const [openBurguerMenu, setBurguerMenuState] = useState(false);
+  const { language } = useContext(ApplicationContext);
+
   return (
     <header className="header">
       <div className="title-container">
         <h2 className="title">
+          <a
+            href="https://github.com/brenoccamp"
+            target="_blank"
+            rel="noopener noreferrer">
           <FontAwesomeIcon icon={faHandshake}></FontAwesomeIcon>
           &nbsp;Brenoccamp
+          </a>
         </h2>
         <p className="paragraph-description">
           <FontAwesomeIcon className="laptopCode-icon" icon={ faLaptopCode }></FontAwesomeIcon>
-          &nbsp;Full Stack Developer
+          {language ? ' Desenvolvedor Full Stack' : ' Full Stack Developer'}
         </p>
       </div>
       <div
@@ -25,10 +33,10 @@ function Header() {
       </div>
       <nav className={openBurguerMenu ? 'nav active' : 'nav'}>
         <ul className="ul-menu">
-          <a><li>Home</li></a>
-          <a><li>About</li></a>
-          <a><li>Portfolio</li></a>
-          <a><li>Contact</li></a>
+          <li><a href="#home">{language ? 'Início' : 'Home'}</a></li>
+          <li><a href="#about">{language ? 'Sobre' : 'About'}</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">{language ? 'Contato' : 'Contact'}</a></li>
         </ul>
       </nav>
     </header>

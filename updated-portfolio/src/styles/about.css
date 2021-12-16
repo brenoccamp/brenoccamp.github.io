@@ -1,0 +1,11 @@
+@media screen and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .about-section {
+    
+  }
+}
