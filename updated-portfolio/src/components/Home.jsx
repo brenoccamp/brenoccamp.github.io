@@ -11,7 +11,7 @@ function Home() {
         onClick={ () => setLanguage(!language) }
         className="set-language-anchor"
       >
-        {!language ? 'Portuguese' : 'Inglês'}
+        {language ? 'Switch to English' : 'Mudar para Português'}
       </p>
       <p className="home-title montserrat">Breno da Cunha Campanha</p>
       <p className="home-paragraph montserrat">
@@ -30,6 +30,13 @@ function Home() {
         <span>MONGODB</span>
         <span>TYPESCRIPT</span>
         <span>HTML</span>
+      </div>
+      <div className="advance-text-container">
+        <a href="#about">
+          <p></p>
+          <p></p>
+          <p></p>
+        </a>
       </div>
     </main>
   );

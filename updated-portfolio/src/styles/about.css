@@ -6,6 +6,60 @@
   }
 
   .about-section {
-    
+    background-color: black;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    border-top: 1px solid rgb(54, 54, 54);
+    text-align: center;
   }
+
+  .about-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-title {
+    color: white;
+    background-color: #00b8e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 35px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+
+  .fullname-paragraph {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 30px 10px 0px;
+  }
+
+  .about-paragraph-container {
+    margin: 50px 15px 10px;
+  }
+
+  .about-paragraph {
+    color: white;
+    font-weight: none;
+    line-height: 22px;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .a-p2 {
+    margin-top: 35px;
+  }
+
+  .trybe-link {
+    color: #00b8e4;
+  }
+
+  .a-p3 {
+    margin-top: 35px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
 }

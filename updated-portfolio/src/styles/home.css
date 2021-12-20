@@ -9,8 +9,8 @@
     color: white;
     margin-top: 50px;
     position: absolute;
-    right: 5px;
-    z-index: 10;
+    right: 8px;
+    z-index: 1;
   }
 
   .main-home {
@@ -129,6 +129,46 @@
     }
     100% {
       transform: translateY(-700%);
+    }
+  }
+
+  .advance-text-container {
+    left: 50%;
+    position: absolute;
+    top: 91.7%;
+    transform: translate(-50%, -50%); 
+  }
+
+  .advance-text-container p {
+    animation: scroll 2s infinite;
+    border-bottom: 3px solid #ffffff9c;
+    border-right: 3px solid #ffffff9c;
+    display: block;
+    height: 15px;
+    margin: -8px;
+    transform: rotate(45deg);
+    width: 15px;
+  }
+
+  .advance-text-container p:nth-child(2) {
+    animation-delay: -.2s;
+  }
+
+  .advance-text-container p:nth-child(3) {
+    animation-delay: -.4s;
+  }
+
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
     }
   }
 

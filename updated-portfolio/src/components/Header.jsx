@@ -35,7 +35,7 @@ function Header() {
         <ul className="ul-menu">
           <li><a href="#home">{language ? 'Início' : 'Home'}</a></li>
           <li><a href="#about">{language ? 'Sobre' : 'About'}</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#portfolio">{language ? 'Portófio': 'Portfolio'}</a></li>
           <li><a href="#contact">{language ? 'Contato' : 'Contact'}</a></li>
         </ul>
       </nav>
