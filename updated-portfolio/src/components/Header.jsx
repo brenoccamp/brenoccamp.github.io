@@ -15,7 +15,8 @@ function Header() {
           <a
             href="https://github.com/brenoccamp"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
           <FontAwesomeIcon icon={faHandshake}></FontAwesomeIcon>
           &nbsp;Brenoccamp
           </a>
