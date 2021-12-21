@@ -6,7 +6,7 @@ import ApplicationContext from "../context/ApplicationContext";
 
 function Header() {
   const [openBurguerMenu, setBurguerMenuState] = useState(false);
-  const { language } = useContext(ApplicationContext);
+  const { portuguese } = useContext(ApplicationContext);
 
   return (
     <header className="header">
@@ -22,7 +22,7 @@ function Header() {
         </h2>
         <p className="paragraph-description">
           <FontAwesomeIcon className="laptopCode-icon" icon={ faLaptopCode }></FontAwesomeIcon>
-          {language ? ' Desenvolvedor Full Stack' : ' Full Stack Developer'}
+          {portuguese ? ' Desenvolvedor Full Stack' : ' Full Stack Developer'}
         </p>
       </div>
       <div
@@ -33,10 +33,10 @@ function Header() {
       </div>
       <nav className={openBurguerMenu ? 'nav active' : 'nav'}>
         <ul className="ul-menu">
-          <li><a href="#home">{language ? 'Início' : 'Home'}</a></li>
-          <li><a href="#about">{language ? 'Sobre' : 'About'}</a></li>
-          <li><a href="#portfolio">{language ? 'Portófio': 'Portfolio'}</a></li>
-          <li><a href="#contact">{language ? 'Contato' : 'Contact'}</a></li>
+          <li><a href="#home">{portuguese ? 'Início' : 'Home'}</a></li>
+          <li><a href="#about">{portuguese ? 'Sobre' : 'About'}</a></li>
+          <li><a href="#projects">{portuguese ? 'Projetos': 'Projects'}</a></li>
+          <li><a href="#contact">{portuguese ? 'Contato' : 'Contact'}</a></li>
         </ul>
       </nav>
     </header>

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import ApplicationContext from './ApplicationContext';
 
 function ApplicationProvider({ children }) {
-  const [language, setLanguage] = useState(false);
+  const [portuguese, setLanguage] = useState(false);
 
   const contextValue = {
-    language,
+    portuguese,
     setLanguage,
   };
 

@@ -1,0 +1,30 @@
+@media screen and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .projects-section {
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid #00b8e4;
+    border-bottom: 1px solid #00b8e4;
+    text-align: center;
+  }
+
+  .projects-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-title {
+    color: white;
+    background-color: #00b8e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 35px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+  }
+}
