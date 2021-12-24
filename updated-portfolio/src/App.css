@@ -95,3 +95,37 @@
     width: 100em;
   }
 }
+
+@media screen and (min-width: 961px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html {
+    box-sizing: border-box;
+    height: 100em;
+    width: 100em;
+  }
+
+  body {
+    height: 100em;
+    overflow-x: hidden;
+    width: 100em;
+  }
+
+  #root {
+    height: 100em;
+    width: 100em;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    width: 100em;
+  }
+}

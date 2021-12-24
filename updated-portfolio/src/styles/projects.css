@@ -200,12 +200,12 @@
     color: white;
     background-color: #00b8e4;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bolder;
     margin-top: 8%;
     padding: 2%;
     text-align: center;
-    width: 30%;
+    width: 25%;
   }
 
   .section-description-container {
@@ -216,7 +216,7 @@
 
   .description-paragraph {
     color: rgba(255, 255, 255, 0.856);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     padding: 0% 10%;
   }
@@ -245,9 +245,105 @@
 
   img {
     border-radius: 2%;
-    height: 60%;
+    height: 210px;
     margin: 2%;
-    width: 60%;
+    width: 210px;
+  }
+
+  .more-information-paragraph {
+    color: white;
+    font-size: 2.3rem;
+    margin-bottom: 10%;
+    padding: 0% 10%;
+  }
+
+  .paragraph {
+    font-size: 2rem;
+  }
+
+  .github-link {
+    font-weight: 700;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .projects-section {
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid #00b8e4;
+    border-bottom: 1px solid #00b8e4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .projects-title-container {
+    display: flex;
+    justify-content: center;
+    width: 100em;
+  }
+  
+  .projects-title {
+    color: white;
+    background-color: #00b8e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 8%;
+    padding: 3%;
+    text-align: center;
+    width: 45%;
+  }
+
+  .section-description-container {
+    margin-top: 5%;
+    padding: 0px 5%;
+    text-align: center;
+  }
+
+  .description-paragraph {
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0% 10%;
+  }
+
+  .projects-container {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3% 0% 5%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .card-container {
+    background-color: rgba(245, 245, 245, 0.103);
+    border-radius: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 3% 2%;
+    padding: 2%;
+    width: 70%;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 2%;
+    height: 210px;
+    margin: 2%;
+    width: 210px;
   }
 
   .more-information-paragraph {
