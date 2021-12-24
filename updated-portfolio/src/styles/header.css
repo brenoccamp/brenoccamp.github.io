@@ -403,12 +403,10 @@
     background-color: black;
     color: white;
     display: flex;
-    font-size: 3.5rem;
+    font-size: 1.8rem;
     justify-content: space-between;
-    min-height: 15%;
-    padding: 0px;
+    min-height: 10%;
     position: fixed;
-    top: 0px;
     width: 100%;
     z-index: 10000;
   }
@@ -424,7 +422,7 @@
   }
   
   .paragraph-description {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
   }
   
   .laptopCode-icon {
@@ -433,7 +431,7 @@
 
   .nav {
     display: flex;
-    margin-right: 100px;
+    margin-right: 80px;
     min-width: 50%;
   }
 
@@ -444,7 +442,7 @@
   }
 
   li {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     list-style: none;
   }
 
