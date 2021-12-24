@@ -14,7 +14,7 @@
   }
   
   .main-home {
-    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-image: url(/src/images/background-home-768.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +178,7 @@
   }
 
   .main-home {
-    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-image: url(/src/images/background-home-768.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -362,15 +362,15 @@
   }
 
   .main-home {
-    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-image: url(/src/images/background-home-768.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 70em;
+    height: 70vh;
     margin-top: calc(10%);
-    width: 100em;
+    width: 100vw;
   }
 
   .home-content-container {
@@ -547,7 +547,7 @@
   }
 
   .main-home {
-    background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
+    background-image: url(/src/images/background-home-768.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
