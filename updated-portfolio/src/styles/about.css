@@ -215,7 +215,9 @@
     background-image: url(/src/images/Design\ sem\ nome3.png);
     background-position: center center;
     background-size: cover;
+    /* border-radius: 100%; */
     height: 100em;
+    /* margin-top: 13%; */
     width: 40em;
   }
 
@@ -223,6 +225,7 @@
     color: white;
     font-size: 3.3rem;
     font-weight: bolder;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 14% 0% 0% 2%;
     text-align: start;
@@ -286,18 +289,18 @@
     color: white;
     background-color: #00b8e4;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bolder;
-    margin-top: 8%;
-    padding: 2%;
+    margin-top: 10%;
+    padding: 1.5%;
     text-align: center;
-    width: 30%;
+    width: 20%;
   }
 
   .photo-container {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 40%;
   }
 
   .photo {
@@ -305,13 +308,13 @@
     background-image: url(/src/images/Design\ sem\ nome3.png);
     background-position: center center;
     background-size: cover;
-    height: 100em;
-    width: 70em;
+    height: 50em;
+    width: 35em;
   }
 
   .fullname-paragraph {
     color: white;
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 14% 0% 0% 2%;
@@ -325,15 +328,15 @@
 
   .about-paragraph {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: none;
     line-height: 1.5em;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     padding: 0px 25px 0px 25px;
   }
 
   .a-p2 {
-    margin-top: 6%;
+    margin-top: 4%;
   }
 
   .trybe-link {
@@ -341,7 +344,7 @@
   }
 
   .a-p3 {
-    margin-top: 6%;
+    margin-top: 4%;
   }
 
   .footer {

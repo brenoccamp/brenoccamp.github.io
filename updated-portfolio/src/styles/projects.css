@@ -289,19 +289,19 @@
   .projects-title-container {
     display: flex;
     justify-content: center;
-    width: 100em;
+    width: 100vw;
   }
   
   .projects-title {
     color: white;
     background-color: #00b8e4;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bolder;
-    margin-top: 8%;
-    padding: 3%;
+    margin-top: 7%;
+    padding: 1%;
     text-align: center;
-    width: 45%;
+    width: 20%;
   }
 
   .section-description-container {
@@ -311,10 +311,10 @@
   }
 
   .description-paragraph {
-    color: rgba(255, 255, 255, 0.856);
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 0% 10%;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0% 20%;
   }
 
   .projects-container {
@@ -322,7 +322,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3% 0% 5%;
+    margin: 2% 0% 5%;
     padding: 0% 5%;
     width: 100%;
   }
@@ -333,28 +333,28 @@
     color: white;
     display: flex;
     flex-direction: column;
-    margin: 3% 2%;
+    margin: 1% 1%;
     padding: 2%;
-    width: 70%;
+    width: 50%;
     text-align: center;
   }
 
   img {
     border-radius: 2%;
-    height: 210px;
+    height: 200px;
     margin: 2%;
-    width: 210px;
+    width: 200px;
   }
 
   .more-information-paragraph {
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     margin-bottom: 10%;
     padding: 0% 10%;
   }
 
   .paragraph {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   .github-link {

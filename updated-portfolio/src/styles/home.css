@@ -554,7 +554,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin-top: calc(10%);
+    margin-top: calc(5%);
     width: 100vw;
   }
 
@@ -566,14 +566,14 @@
     align-items: flex-end;
     display: flex;
     justify-content: flex-end;
-    margin: 3% 10% 0% 0%;
+    margin: 5% 10% 0% 0%;
     width: 100vw;
   }
   
   .set-language-anchor {
     color: white;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 3%;
   }
 
@@ -583,33 +583,33 @@
 
   .home-title {
     color: white;
-    font-size: 6.5rem;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 100px;
-    margin-left: calc(30%);
+    line-height: 50px;
+    margin-left: calc(17%);
     margin-top: calc(2%);
-    margin-bottom: calc(3%);
-    max-width: 70%;
+    margin-bottom: calc(1%);
+    max-width: 30%;
     text-shadow: -3px 0 black;
   }
   
   .home-paragraph {
     color: #03b8e6;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 100px;
-    margin-left: calc(31%);
-    text-shadow: -4px 0 black;
+    line-height: 40px;
+    margin-left: calc(17.5%);
+    text-shadow: -2px 0 black;
   }
   
   .skills-paragraph {
     color: white;
-    font-size: 3rem;
+    font-size: 1.9rem;
     font-weight: 600;
     line-height: 40px;
-    margin-left: calc(31%);
-    margin-top: calc(2%);
-    text-shadow: -5px 0 black;
+    margin-left: calc(17.5%);
+    margin-top: calc(0.5%);
+    text-shadow: -2px 0 black;
   }
 
   .skills-container {
@@ -622,9 +622,9 @@
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    height: 6%;
-    margin-left: calc(18%);
-    margin-top: calc(1%);
+    height: 7%;
+    margin-left: calc(21%);
+    margin-top: calc(0.5%);
     max-width: 15%;
     overflow: hidden;
   }
@@ -633,9 +633,9 @@
     animation: spin_skills 10s infinite;
     display: block;
     font-family: "Poppins", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
-    padding-top: calc(3%);
+    padding-top: calc(2%);
   }
   
   @keyframes spin_skills {
@@ -689,20 +689,20 @@
   .advance-text-container {
     display: flex;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 1%;
     padding-left: 10%;
     width: 100%;
   }
 
   .advance-text-container p {
     animation: scroll 2s infinite;
-    border-bottom: 6.5px solid #ffffff9c;
-    border-right: 6.5px solid #ffffff9c;
+    border-bottom: 3px solid #ffffff9c;
+    border-right: 3px solid #ffffff9c;
     display: block;
-    height: 40px;
+    height: 25px;
     margin: -8px;
     transform: rotate(45deg);
-    width: 40px;
+    width: 25px;
   }
 
   .advance-text-container p:nth-child(2) {
