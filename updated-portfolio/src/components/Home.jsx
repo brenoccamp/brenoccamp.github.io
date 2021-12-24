@@ -7,20 +7,24 @@ function Home() {
 
   return (
     <main className="main-home"  id="home">
-      <p
-        onClick={ () => setLanguage(!portuguese) }
-        className="set-language-anchor"
-      >
-        {portuguese ? 'Switch to English' : 'Mudar para Português'}
-      </p>
-      <p className="home-title montserrat">Breno da Cunha Campanha</p>
-      <p className="home-paragraph montserrat">
-        {portuguese ? 'Desenvolvedor Full Stack' : 'Full Stack Developer'} <br />
-        {portuguese ? 'Web e Mobile' : 'Web and Mobile'} <br />
-        {portuguese ? 'Programador Javascript' : 'Javascript Programmer'} <br />
-        {portuguese ? 'Autônomo' : 'Freelancer'} <br />
-      </p>
-      <p className="skills-paragraph montserrat">{portuguese ? 'Habilidades em programação' : 'Main Hard Skills'}</p>
+      <div className="set-language-anchor-container">
+        <p
+          onClick={ () => setLanguage(!portuguese) }
+          className="set-language-anchor"
+          >
+          {portuguese ? 'Switch to English' : 'Mudar para Português'}
+        </p>
+      </div>
+      <div className="home-content-container">
+        <p className="home-title montserrat">Breno da Cunha Campanha</p>
+        <p className="home-paragraph montserrat">
+          {portuguese ? 'Desenvolvedor Full Stack' : 'Full Stack Developer'} <br />
+          {portuguese ? 'Web e Mobile' : 'Web and Mobile'} <br />
+          {portuguese ? 'Programador Javascript' : 'Javascript Programmer'} <br />
+          {portuguese ? 'Autônomo' : 'Freelancer'} <br />
+        </p>
+        <p className="skills-paragraph montserrat">{portuguese ? 'Habilidades em programação' : 'Main Hard Skills'}</p>
+      </div>
       <div className="skills-container">
         <span>HTML</span>
         <span>CSS</span>

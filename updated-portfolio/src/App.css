@@ -1,47 +1,97 @@
-/* .App {
-  background-image: url(/src/images/backgroundmin768-initial-screen.jpg);
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+@media screen and (max-width: 479px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #root {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
 }
 
-.footer {
-  height: 100%;
-  position: fixed;
-}
-
-.date-container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-end;
-  margin: 0px;
-  padding: 0px;
-}
-
-.copyright {
-  color: white;
-  margin: 0px;
-} */
-
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
   }
 
+  html {
+    box-sizing: border-box;
+    height: 100em;
+    width: 100em;
+  }
+
+  body {
+    height: 100em;
+    width: 100em;
+  }
+
+  #root {
+    height: 100vh;
+    width: 100vw;
+  }
+
   .App {
-    /* align-items: center; */
-    /* align-content: space-between; */
-    /* background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     height: auto;
     margin: 0px;
     padding: 0px;
+    width: 100em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html {
+    box-sizing: border-box;
+    height: 100em;
+    width: 100em;
+  }
+
+  body {
+    height: 100em;
+    width: 100em;
+  }
+
+  #root {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    width: 100em;
   }
 }
