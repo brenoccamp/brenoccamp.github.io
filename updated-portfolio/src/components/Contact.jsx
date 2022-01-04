@@ -36,7 +36,7 @@ function Contact() {
       ) : (
         <div className="contact-container">
           <p className="contact-pagraph">
-            Need a Full Stack Developer? Contact me through my <b>social networks</b> or <b>email</b>! <br />
+            Do You need a Full Stack Developer? Contact me through my <b>social networks</b> or <b>email</b>! <br />
           </p>
           <p className="icons-suggestion">Click on the desired icon!</p>
           <div className="social-networks-container">
